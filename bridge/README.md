@@ -4,7 +4,7 @@ b-parasite periodically broadcasts its sensors readings via bluetooth low energy
 # An ESPHome-based Example Bridge
 This directory contains a hub implementation based on the [ESPHome project](https://github.com/esphome/esphome/), which runs on the popular [ESP32](https://www.espressif.com/en/products/socs/esp32) microcontrollers.
 
-The `parahub.yaml` file defines an ESPHome project using the `b_parasite` platform. This platform has not yet been merged in the official ESPHome repository, so if you want to use this example bridge, you'll need to use the [rbaron/esphome](https://github.com/rbaron/esphome) fork.
+The `parahub.yaml` file defines an ESPHome project using the [`b_parasite` platform](https://esphome.io/components/sensor/b_parasite.html).
 
 ## Secrets
 `parahub.yaml` contains some directives such as `!secret mqtt_password`, which instructs it to read secrets from a `secrets.yaml` file.
